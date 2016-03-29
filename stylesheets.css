@@ -1,0 +1,46 @@
+body {
+  font-family: serif;
+  margin: 0px; /** this is a comment */
+  background-color: silver;
+}
+
+a {
+  color: red;
+}
+
+img {
+  width: 200px;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.header {
+  background-color: #99B55D;
+  border: 2px solid black;
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  padding: 0px 10px;
+  font-size: 50px;
+  z-index: 10;
+}
+
+.content {
+  height: 200px;
+  position: absolute;
+  top: 60px;
+  padding: 10px;
+  z-index: 0px;
+}
+
+/**.footer {
+  background-color: #0F21FD;
+  position:fixed;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 10px;
+}*/
